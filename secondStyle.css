@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+body{
+    background-color: antiquewhite;
+     display: flex;  /*esse aaju baju aa jate hai aur center me bhi aata hai esky beger kuch nahi hota*/
+     align-items: center; /*body me height k hisab se content bech me aata hai */
+     justify-content: center; /*pura content body k ebcho becch aata hai ye aur eske upar ka dono agar karte to sath hi display flex dena padegaa*/
+
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /*text width k hisab se beech me aata hai */
+    width: 30%;
+    height: 30%;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#box1{
+    background-color: aqua;
+ 
+}
+
+#box2{
+    background-color: rgb(72, 211, 72);
+    
+}
